@@ -1,0 +1,22 @@
+author: "Pablo Alessandro Santos Hugen"
+name: "rosedark"
+slug: "rosedark"
+system: "base16"
+variant: "dark"
+palette:
+  base00: "#000000"  # default background
+  base01: "#000000"  # additional background
+  base02: "#191724"  # surface
+  base03: "#7c6f64"  # comments
+  base04: "#c4a7e7"  # light foreground
+  base05: "#f5e0dc"  # foreground
+  base06: "#e0def4"  # lighter foreground
+  base07: "#f2e9e1"  # brightest foreground
+  base08: "#eb6f92"  # red
+  base09: "#f6c177"  # peach
+  base0A: "#f6c177"  # yellow
+  base0B: "#31748f"  # green
+  base0C: "#9ccfd8"  # cyan
+  base0D: "#c4a7e7"  # blue
+  base0E: "#f6c177"  # purple
+  base0F: "#eb6f92"  # magenta
