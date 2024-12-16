@@ -1,0 +1,22 @@
+author: "Pablo Alessandro Santos Hugen"
+name: "darcula"
+slug: "darcula"
+system: "base16"
+variant: "dark"
+palette:
+  base00: "#000000"  # default background
+  base01: "#000000"  # additional background
+  base02: "#44475a"  # surface
+  base03: "#6272a4"  # comments
+  base04: "#f8f8f2"  # light foreground
+  base05: "#f8f8f2"  # foreground
+  base06: "#f8f8f2"  # lighter foreground
+  base07: "#f8f8f2"  # brightest foreground
+  base08: "#ff5555"  # red
+  base09: "#f1fa8c"  # orange
+  base0A: "#f1fa8c"  # yellow
+  base0B: "#50fa7b"  # green
+  base0C: "#8be9fd"  # cyan
+  base0D: "#bd93f9"  # blue
+  base0E: "#ff79c6"  # purple
+  base0F: "#ff79c6"  # magenta
