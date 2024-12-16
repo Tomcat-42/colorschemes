@@ -1,0 +1,3 @@
+colors:
+    extension: .lua
+    output: colors
