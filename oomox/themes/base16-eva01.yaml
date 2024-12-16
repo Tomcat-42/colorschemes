@@ -6,7 +6,7 @@ base02: "4b6988"
 base03: "55799c"  # comments
 base04: "ffffff"  # dark background
 base05: "ffffff"  # foreground
-base06: "d6d7d9"
+base06: "ffffff"
 base07: "ffffff"  # light background
 base08: "ff6666"  # red
 base09: "ff9966"  # orange

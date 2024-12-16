@@ -1,22 +1,22 @@
 author: "Pablo Alessandro Santos Hugen"
-name: "rosepine"
-slug: "rosepine"
+name: "eva01"
+slug: "eva01"
 system: "base16"
 variant: "dark"
 palette:
-  base00: "#000000"  # default background (kept black)
-  base01: "#000000"  # additional background (kept black)
-  base02: "#191724"  # surface
-  base03: "#7c6f64"  # comments
-  base04: "#c4a7e7"  # light foreground
-  base05: "#f5e0dc"  # foreground
-  base06: "#e0def4"  # lighter foreground
-  base07: "#f2e9e1"  # brightest foreground
-  base08: "#eb6f92"  # red
-  base09: "#f6c177"  # peach
-  base0A: "#f6c177"  # yellow (Rose Pine uses the same color for peach and yellow)
-  base0B: "#31748f"  # green
-  base0C: "#9ccfd8"  # cyan
-  base0D: "#c4a7e7"  # blue (Rose Pine's blue is similar to its surface color)
-  base0E: "#f6c177"  # purple (using peach for purple)
-  base0F: "#eb6f92"  # magenta (using red for magenta)
+  base00: "#000000"  # default background
+  base01: "#000000"  # additional background
+  base02: "#4b6988"  # surface
+  base03: "#55799c"  # comments
+  base04: "#ffffff"  # light foreground
+  base05: "#ffffff"  # foreground
+  base06: "#ffffff"  # lighter foreground
+  base07: "#ffffff"  # brightest foreground
+  base08: "#ff6666"  # red
+  base09: "#ff9966"  # orange
+  base0A: "#ffff66"  # yellow
+  base0B: "#66ff66"  # green
+  base0C: "#4b8f77"  # cyan
+  base0D: "#15f4ee"  # blue
+  base0E: "#9c6cd3"  # purple
+  base0F: "#bb64a9"  # magenta
