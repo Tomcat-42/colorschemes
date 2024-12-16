@@ -1,0 +1,23 @@
+--
+-- Base16 Gigavolt
+-- Author: Aidan Swope (http://github.com/Whillikers)
+--
+
+return {
+  base00 = "#202126", -- ----
+  base01 = "#2d303d", -- ---
+  base02 = "#5a576e", -- --
+  base03 = "#a1d2e6", -- -
+  base04 = "#cad3ff", -- +
+  base05 = "#e9e7e1", -- ++
+  base06 = "#eff0f9", -- +++
+  base07 = "#f2fbff", -- ++++
+  base08 = "#ff661a", -- red
+  base09 = "#19f988", -- orange
+  base0A = "#ffdc2d", -- yellow
+  base0B = "#f2e6a9", -- green
+  base0C = "#fb6acb", -- aqua/cyan
+  base0D = "#40bfff", -- blue
+  base0E = "#ae94f9", -- purple
+  base0F = "#6187ff", -- brown
+}
