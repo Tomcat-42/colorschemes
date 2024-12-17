@@ -36,6 +36,7 @@ map [fullscreen] <C-i> jumplist forward
 # Other
 map [index] q toggle_index
 
+# Base Colors
 set default-bg                  "#000000"
 set default-fg                  "#000000"
 
@@ -60,8 +61,39 @@ set highlight-active-color      "#83a598"
 set completion-bg               "#000000"
 set completion-fg               "#83a598"
 
+set completion-group-bg         "#000000"
+set completion-group-fg         "#83a598"
+
 set completion-highlight-fg     "#fbf1c7"
 set completion-highlight-bg     "#83a598"
 
 set recolor-lightcolor          "#000000"
 set recolor-darkcolor           "#ebdbb2"
+
+# Inserted Missing Options
+
+set index-bg                    "#000000" # base00 - default background
+set index-fg                    "#d5c4a1" # base05 - foreground
+set index-active-bg             "#8ec07c" # base0C - cyan
+set index-active-fg             "#000000" # base00 - default background
+
+set inputbar-bg                 "#000000" # base00 - default background
+set inputbar-fg                 "#d5c4a1" # base05 - foreground
+
+set statusbar-bg                "#000000" # base00 - default background
+set statusbar-fg                "#d5c4a1" # base05 - foreground
+
+set highlight-color             "#fe8019" # base09 - orange
+set highlight-active-color      "#fe8019" # base09 - orange
+set highlight-transparency      0.05
+
+set default-bg                  "#000000" # base00 - default background
+set default-fg                  "#d5c4a1" # base05 - foreground
+set render-loading              true
+set render-loading-bg           "#000000" # base00 - default background
+set render-loading-fg           "#d5c4a1" # base05 - foreground
+
+# Recolor Book Content's Color
+set recolor-lightcolor          "#000000" # base00 - default background
+set recolor-darkcolor           "#d5c4a1" # base05 - foreground
+set recolor-keephue             true      # keep original color
