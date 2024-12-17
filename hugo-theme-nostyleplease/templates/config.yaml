@@ -1,0 +1,3 @@
+main:
+    extension: .scss
+    output: css
