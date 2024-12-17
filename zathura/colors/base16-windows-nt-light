@@ -1,0 +1,67 @@
+set synctex true
+#set filemonitor "signal"
+set first-page-column 2
+set window-title-basename true
+set adjust-open "width"
+
+# Settings
+# set guioptions ''
+set statusbar-v-padding 0
+set statusbar-h-padding 20
+set window-title-basename true
+set incremental-search true
+set font "Iosevka NF 16"
+set selection-notification true
+# set smooth-scroll true
+set sandbox none
+set vertical-center true
+
+set selection-clipboard "clipboard"
+
+# Define normal mappings
+# map j scroll half-down
+# map k scroll half-up
+
+# Define mappings for fullscreen
+map [fullscreen] a adjust_window best-fit
+map [fullscreen] s adjust_window width
+map [fullscreen] f follow
+map [fullscreen] d toggle_page_mode 2
+map [fullscreen] <Tab> toggle_index
+# map [fullscreen] j scroll half-down
+# map [fullscreen] k scroll half-up
+map [fullscreen] <C-o> jumplist backward
+map [fullscreen] <C-i> jumplist forward
+
+# Other
+map [index] q toggle_index
+
+set default-bg                  "#ffffff"
+set default-fg                  "#eaeaea"
+
+set statusbar-fg                "#a0a0a0"
+set statusbar-bg                "#d5d5d5"
+
+set inputbar-bg                 "#ffffff"
+set inputbar-fg                 "#000000"
+
+set notification-bg             "#ffffff"
+set notification-fg             "#000000"
+
+set notification-error-bg       "#ffffff"
+set notification-error-fg       "#800000"
+
+set notification-warning-bg     "#ffffff"
+set notification-warning-fg     "#800000"
+
+set highlight-color             "#808000"
+set highlight-active-color      "#000080"
+
+set completion-bg               "#eaeaea"
+set completion-fg               "#000080"
+
+set completion-highlight-fg     "#000000"
+set completion-highlight-bg     "#000080"
+
+set recolor-lightcolor          "#ffffff"
+set recolor-darkcolor           "#404040"
