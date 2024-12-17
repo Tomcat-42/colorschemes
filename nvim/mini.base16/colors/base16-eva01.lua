@@ -1,7 +1,7 @@
 local base16 = require('mini.base16')
 local colors = {
   palette = {
-    base00 = '#000000', -- Default Background (Customized to pure black)
+    base00 = '#000000', -- Default Background
     base01 = '#000000', -- Darker Background (Status Line, etc.)
     base02 = '#4b6988', -- Selection Background
     base03 = '#55799c', -- Comments, Invisibles, Line Highlighting
