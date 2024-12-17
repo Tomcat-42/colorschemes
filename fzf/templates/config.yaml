@@ -1,0 +1,3 @@
+fzf:
+    extension: .fish
+    output: conf.d
