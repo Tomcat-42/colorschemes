@@ -5,12 +5,12 @@ system: "base16"
 variant: "dark"
 palette:
   base00: "#000000"  # default background
-  base01: "#3d566f"  # additional background
+  base01: "#000000"  # additional background
   base02: "#4b6988"  # surface
   base03: "#55799c"  # comments
-  base04: "#7e90a3"  # light foreground
+  base04: "#ffffff"  # light foreground
   base05: "#ffffff"  # foreground
-  base06: "#d6d7d9"  # lighter foreground
+  base06: "#ffffff"  # lighter foreground
   base07: "#ffffff"  # brightest foreground
   base08: "#ff6666"  # red
   base09: "#ff9966"  # orange
