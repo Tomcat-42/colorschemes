@@ -1,18 +1,16 @@
 set synctex true
 #set filemonitor "signal"
 set first-page-column 2
-set window-title-basename true
 set adjust-open "width"
 
 # Settings
 # set guioptions ''
 set statusbar-v-padding 0
 set statusbar-h-padding 20
-set window-title-basename true
 set incremental-search true
-set font "Iosevka NF 16"
+set font "Iosevka NF 12"
 set selection-notification true
-# set smooth-scroll true
+set smooth-scroll true
 set sandbox none
 set vertical-center true
 
@@ -85,7 +83,6 @@ set statusbar-fg                "#d5c4a1" # base05 - foreground
 
 set highlight-color             "#fe8019" # base09 - orange
 set highlight-active-color      "#fe8019" # base09 - orange
-set highlight-transparency      0.05
 
 set default-bg                  "#000000" # base00 - default background
 set default-fg                  "#d5c4a1" # base05 - foreground
