@@ -10,8 +10,6 @@ set statusbar-h-padding 20
 set incremental-search true
 set font "Iosevka NF 12"
 set selection-notification true
-set smooth-scroll true
-set sandbox none
 set vertical-center true
 
 set selection-clipboard "clipboard"
