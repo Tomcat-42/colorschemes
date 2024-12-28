@@ -25,11 +25,11 @@ return {
         },
         use_cterm = true,
         plugins = {
-          default = false
+          default = true
         },
       })
-      vim.api.nvim_set_hl(0, 'VertSplit', { fg = "#e0e0e0", bg = nil, attr = nil, sp = nil })
-      vim.api.nvim_set_hl(0, 'WinSeparator', { fg = "#e0e0e0", bg = nil, attr = nil, sp = nil })
+      vim.api.nvim_set_hl(0, 'VertSplit', { fg = "#b0b0b0", bg = nil, attr = nil, sp = nil })
+      vim.api.nvim_set_hl(0, 'WinSeparator', { fg = "#b0b0b0", bg = nil, attr = nil, sp = nil })
     end
   }
 }
