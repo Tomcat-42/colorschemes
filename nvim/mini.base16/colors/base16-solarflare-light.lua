@@ -28,6 +28,8 @@ return {
           default = false
         },
       })
+      vim.api.nvim_set_hl(0, 'VertSplit', { fg = "#e8e9ed", bg = nil, attr = nil, sp = nil })
+      vim.api.nvim_set_hl(0, 'WinSeparator', { fg = "#e8e9ed", bg = nil, attr = nil, sp = nil })
     end
-  } 
+  }
 }

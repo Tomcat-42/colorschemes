@@ -28,6 +28,8 @@ return {
           default = false
         },
       })
+      vim.api.nvim_set_hl(0, 'VertSplit', { fg = "#3d4048", bg = nil, attr = nil, sp = nil })
+      vim.api.nvim_set_hl(0, 'WinSeparator', { fg = "#3d4048", bg = nil, attr = nil, sp = nil })
     end
-  } 
+  }
 }
