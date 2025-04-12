@@ -1,0 +1,22 @@
+author: "Pablo Alessandro Santos Hugen"
+name: "darkagawa"
+slug: "darkagawa"
+system: "base16"
+variant: "dark"
+palette:
+  base00: "#000000"  # default background
+  base01: "#000000"  # additional background
+  base02: "#223249"  # surface
+  base03: "#54546d"  # comments
+  base04: "#727169"  # light foreground
+  base05: "#dcd7ba"  # foreground
+  base06: "#c8c093"  # lighter foreground
+  base07: "#717c7c"  # brightest foreground
+  base08: "#c34043"  # red
+  base09: "#ffa066"  # orange
+  base0A: "#c0a36e"  # yellow
+  base0B: "#76946a"  # green
+  base0C: "#6a9589"  # cyan
+  base0D: "#7e9cd8"  # blue
+  base0E: "#957fb8"  # purple
+  base0F: "#d27e99"  # magenta
