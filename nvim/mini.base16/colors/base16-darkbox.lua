@@ -8,7 +8,7 @@ return {
         palette = {
           base00 = '#000000', -- Default Background
           base01 = '#000000', -- Darker Background (Status Line, etc.)
-          base02 = '#504945', -- Selection Background
+          base02 = '#1d2021', -- Selection Background
           base03 = '#665c54', -- Comments, Invisibles, Line Highlighting
           base04 = '#bdae93', -- Dark Foreground (Status Line)
           base05 = '#d5c4a1', -- Foreground / Default Text

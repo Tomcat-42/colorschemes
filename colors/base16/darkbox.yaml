@@ -6,7 +6,7 @@ variant: "dark"
 palette:
   base00: "#000000"  # background
   base01: "#000000"  # hard background
-  base02: "#504945"  # soft background
+  base02: "#1d2021"  # soft background
   base03: "#665c54"  # faded comments
   base04: "#bdae93"  # gray
   base05: "#d5c4a1"  # default foreground
