@@ -30,8 +30,8 @@ return {
       })
       vim.api.nvim_set_hl(0, 'VertSplit', { fg = "#6272a4", bg = nil, attr = nil, sp = nil })
       vim.api.nvim_set_hl(0, 'WinSeparator', { fg = "#6272a4", bg = nil, attr = nil, sp = nil })
-      vim.api.nvim_set_hl(0, 'ColorColumn', { link = "Visual })
-      vim.api.nvim_set_hl(0, 'CursorLine', { link = "Visual })
+      vim.api.nvim_set_hl(0, 'ColorColumn', { link = "Visual" })
+      vim.api.nvim_set_hl(0, 'CursorLine', { link = "Visual" })
     end
   }
 }
