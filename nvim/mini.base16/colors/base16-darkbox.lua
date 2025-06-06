@@ -8,8 +8,8 @@ return {
         palette = {
           base00 = '#000000', -- Default Background
           base01 = '#000000', -- Darker Background (Status Line, etc.)
-          base02 = '#3c3836', -- Selection Background
-          base03 = '#504945', -- Comments, Invisibles, Line Highlighting
+          base02 = '#504945', -- Selection Background
+          base03 = '#665c54', -- Comments, Invisibles, Line Highlighting
           base04 = '#bdae93', -- Dark Foreground (Status Line)
           base05 = '#d5c4a1', -- Foreground / Default Text
           base06 = '#ebdbb2', -- Light Foreground (Not often used)
@@ -28,10 +28,10 @@ return {
           default = true
         },
       })
-      vim.api.nvim_set_hl(0, 'VertSplit', { fg = "#504945", bg = nil, attr = nil, sp = nil })
-      vim.api.nvim_set_hl(0, 'WinSeparator', { fg = "#504945", bg = nil, attr = nil, sp = nil })
-      vim.api.nvim_set_hl(0, 'ColorColumn', { link = "Visual })
-      vim.api.nvim_set_hl(0, 'CursorLine', { link = "Visual })
+      vim.api.nvim_set_hl(0, 'VertSplit', { fg = "#665c54", bg = nil, attr = nil, sp = nil })
+      vim.api.nvim_set_hl(0, 'WinSeparator', { fg = "#665c54", bg = nil, attr = nil, sp = nil })
+      vim.api.nvim_set_hl(0, 'ColorColumn', { link = "Visual" })
+      vim.api.nvim_set_hl(0, 'CursorLine', { link = "Visual" })
     end
   }
 }

@@ -4,19 +4,19 @@ slug: "darkbox"
 system: "base16"
 variant: "dark"
 palette:
-  base00: "#000000"  # default background
-  base01: "#000000"  # additional background
-  base02: "#3c3836"  # surface
-  base03: "#504945"  # comments
-  base04: "#bdae93"  # light foreground
-  base05: "#d5c4a1"  # foreground
-  base06: "#ebdbb2"  # lighter foreground
-  base07: "#fbf1c7"  # brightest foreground
+  base00: "#000000"  # background
+  base01: "#000000"  # hard background
+  base02: "#504945"  # soft background
+  base03: "#665c54"  # faded comments
+  base04: "#bdae93"  # gray
+  base05: "#d5c4a1"  # default foreground
+  base06: "#ebdbb2"  # light foreground
+  base07: "#fbf1c7"  # lightest foreground
   base08: "#fb4934"  # red
   base09: "#fe8019"  # orange
   base0A: "#fabd2f"  # yellow
   base0B: "#b8bb26"  # green
-  base0C: "#8ec07c"  # cyan
+  base0C: "#8ec07c"  # aqua/cyan
   base0D: "#83a598"  # blue
   base0E: "#d3869b"  # purple
-  base0F: "#d65d0e"  # magenta
+  base0F: "#d65d0e"  # brown
