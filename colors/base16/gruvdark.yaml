@@ -1,0 +1,22 @@
+author: "Pablo Alessandro Santos Hugen"
+name: "gruvdark"
+slug: "gruvdark"
+system: "base16"
+variant: "dark"
+palette:
+  base00: "#000000"  # background
+  base01: "#000000"  # hard background
+  base02: "#1d2021"  # soft background
+  base03: "#665c54"  # faded comments
+  base04: "#504945"  # gray
+  base05: "#ebdbb2"  # default foreground
+  base06: "#fbf1c7"  # light foreground
+  base07: "#fbf1c7"  # lightest foreground
+  base08: "#cc241d"  # red
+  base09: "#d65d0e"  # orange
+  base0A: "#d79921"  # yellow
+  base0B: "#98971a"  # green
+  base0C: "#689d6a"  # aqua/cyan
+  base0D: "#458588"  # blue
+  base0E: "#b16286"  # purple
+  base0F: "#fe8019"  # brown
