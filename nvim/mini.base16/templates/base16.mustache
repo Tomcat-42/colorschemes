@@ -1,37 +1,32 @@
-return {
-  {
-    "echasnovski/mini.base16",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      require("mini.base16").setup({
-        palette = {
-          base00 = '#{{base00-hex}}', -- Default Background
-          base01 = '#{{base01-hex}}', -- Darker Background (Status Line, etc.)
-          base02 = '#{{base02-hex}}', -- Selection Background
-          base03 = '#{{base03-hex}}', -- Comments, Invisibles, Line Highlighting
-          base04 = '#{{base04-hex}}', -- Dark Foreground (Status Line)
-          base05 = '#{{base05-hex}}', -- Foreground / Default Text
-          base06 = '#{{base06-hex}}', -- Light Foreground (Not often used)
-          base07 = '#{{base07-hex}}', -- Light Background (Not often used)
-          base08 = '#{{base08-hex}}', -- Red
-          base09 = '#{{base09-hex}}', -- Orange
-          base0A = '#{{base0A-hex}}', -- Yellow
-          base0B = '#{{base0B-hex}}', -- Green
-          base0C = '#{{base0C-hex}}', -- Cyan
-          base0D = '#{{base0D-hex}}', -- Blue
-          base0E = '#{{base0E-hex}}', -- Purple
-          base0F = '#{{base0F-hex}}', -- Magenta
-        },
-        use_cterm = true,
-        plugins = {
-          default = true
-        },
-      })
-      vim.api.nvim_set_hl(0, 'VertSplit', { fg = "#{{base03-hex}}", bg = nil, attr = nil, sp = nil })
-      vim.api.nvim_set_hl(0, 'WinSeparator', { fg = "#{{base03-hex}}", bg = nil, attr = nil, sp = nil })
-      vim.api.nvim_set_hl(0, 'ColorColumn', { link = "Visual" })
-      vim.api.nvim_set_hl(0, 'CursorLine', { link = "Visual" })
-    end
-  }
-}
+local base16 = require("mini.base16")
+local hl = vim.api.nvim_set_hl
+
+base16.setup({
+  palette = {
+    base00 = '#{{base00-hex}}', -- Default Background
+    base01 = '#{{base01-hex}}', -- Darker Background (Status Line, etc.)
+    base02 = '#{{base02-hex}}', -- Selection Background
+    base03 = '#{{base03-hex}}', -- Comments, Invisibles, Line Highlighting
+    base04 = '#{{base04-hex}}', -- Dark Foreground (Status Line)
+    base05 = '#{{base05-hex}}', -- Foreground / Default Text
+    base06 = '#{{base06-hex}}', -- Light Foreground (Not often used)
+    base07 = '#{{base07-hex}}', -- Light Background (Not often used)
+    base08 = '#{{base08-hex}}', -- Red
+    base09 = '#{{base09-hex}}', -- Orange
+    base0A = '#{{base0A-hex}}', -- Yellow
+    base0B = '#{{base0B-hex}}', -- Green
+    base0C = '#{{base0C-hex}}', -- Cyan
+    base0D = '#{{base0D-hex}}', -- Blue
+    base0E = '#{{base0E-hex}}', -- Purple
+    base0F = '#{{base0F-hex}}', -- Magenta
+  },
+  use_cterm = true,
+  plugins = {
+    default = true
+  },
+})
+
+hl(0, 'VertSplit', { fg = "#{{base03-hex}}", bg = nil, attr = nil, sp = nil })
+hl(0, 'WinSeparator', { fg = "#{{base03-hex}}", bg = nil, attr = nil, sp = nil })
+hl(0, 'ColorColumn', { link = "Visual" })
+hl(0, 'CursorLine', { link = "Visual" })
