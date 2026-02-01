@@ -7,10 +7,10 @@ REPO_ROOT="$(git rev-parse --show-toplevel)"
 SCHEMES_DIR="$REPO_ROOT/base16/schemes"
 GITIGNORE="$REPO_ROOT/.gitignore"
 
-# Extract theme names from base16/schemes (e.g., "darkbox" from "base16-darkbox.yml")
+# Extract theme names from base16/schemes (e.g., "darkbox" from "darkbox.yml")
 get_custom_themes() {
-    for f in "$SCHEMES_DIR"/base16-*.yml; do
-        basename "$f" | sed 's/^base16-//; s/\.yml$//'
+    for f in "$SCHEMES_DIR"/*.yml; do
+        basename "$f" .yml
     done | sort -u
 }
 
@@ -23,12 +23,12 @@ cat > "$GITIGNORE" << 'HEADER'
 
 HEADER
 
-# base16/schemes
+# base16/schemes (no base16- prefix in filenames)
 {
     echo "# base16 schemes"
-    echo "base16/schemes/base16-*.yml"
+    echo "base16/schemes/*.yml"
     for theme in $THEMES; do
-        echo "!base16/schemes/base16-${theme}.yml"
+        echo "!base16/schemes/${theme}.yml"
     done
     echo ""
 } >> "$GITIGNORE"

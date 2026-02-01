@@ -2,15 +2,15 @@
 # Do not edit manually - add custom themes to base16/schemes/ instead
 
 # base16 schemes
-base16/schemes/base16-*.yml
-!base16/schemes/base16-darkbox.yml
-!base16/schemes/base16-darkbox-hard.yml
-!base16/schemes/base16-darkbox-medium.yml
-!base16/schemes/base16-darkula.yml
-!base16/schemes/base16-eva01.yml
-!base16/schemes/base16-gruvbark.yml
-!base16/schemes/base16-gruvdark.yml
-!base16/schemes/base16-rosedark.yml
+base16/schemes/*.yml
+!base16/schemes/darkbox.yml
+!base16/schemes/darkbox-hard.yml
+!base16/schemes/darkbox-medium.yml
+!base16/schemes/darkula.yml
+!base16/schemes/eva01.yml
+!base16/schemes/gruvbark.yml
+!base16/schemes/gruvdark.yml
+!base16/schemes/rosedark.yml
 
 # fish
 fish/functions/base16-*.fish
